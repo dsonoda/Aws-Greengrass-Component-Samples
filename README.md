@@ -1,5 +1,6 @@
 # Aws-Greengrass-Component-Samples
 ___
+AWS IoT Greengrass V2 Component samples.  
 
 # PublishSwitchState-1.0.0 Component
 \> [article page](https://qiita.com/dsonoda/items/b2e6557f9bfa29ecee14)  
