@@ -5,6 +5,7 @@
 
 [article page](https://qiita.com/dsonoda/items/b2e6557f9bfa29ecee14)
 
+#### deploy command  
 ```shell
 $ sudo /greengrass/v2/bin/greengrass-cli deployment create \
    --recipeDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/recipes \
@@ -17,6 +18,7 @@ $ sudo /greengrass/v2/bin/greengrass-cli deployment create \
 
 [article page](https://qiita.com/dsonoda/items/1c29497e2c8088296e88)
 
+#### deploy command  
 ```shell
 $ sudo /greengrass/v2/bin/greengrass-cli deployment create \
    --recipeDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/recipes \
