@@ -13,5 +13,4 @@ ComponentConfiguration:
             - "raspberrypi4/led"
 Manifests:
   - Lifecycle:
-      Run: |
-        python3 -u {artifacts:path}/publish_led_status.py
+      Run: python3 -u {artifacts:path}/publish_led_status.py
