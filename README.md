@@ -11,9 +11,9 @@ deploy command
 
 ```shell
 $ sudo /greengrass/v2/bin/greengrass-cli deployment create \
-   --recipeDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/recipes \
-   --artifactDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/artifacts \
-   --merge "com.example.PublishSwitchState=1.0.0"
+ --recipeDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/recipes \
+ --artifactDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/artifacts \
+ --merge "com.example.PublishSwitchState=1.0.0"
 ```
 
 # PublishLedStatus-1.0.0 Component
@@ -25,7 +25,7 @@ deploy command
 
 ```shell
 $ sudo /greengrass/v2/bin/greengrass-cli deployment create \
-   --recipeDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/recipes \
-   --artifactDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/artifacts \
-   --merge "com.example.PublishLedStatus=1.0.0"
+ --recipeDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/recipes \
+ --artifactDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/artifacts \
+ --merge "com.example.PublishLedStatus=1.0.0"
 ```
