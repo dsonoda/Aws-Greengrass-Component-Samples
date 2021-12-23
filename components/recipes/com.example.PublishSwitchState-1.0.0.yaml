@@ -6,7 +6,7 @@ ComponentConfiguration:
   DefaultConfiguration:
     accessControl:
       aws.greengrass.ipc.mqttproxy:
-        'com.example.PublishSwitchState:mqttproxy:1':
+        com.example.PublishSwitchState:mqttproxy:1:
           operations:
           - "aws.greengrass#PublishToIoTCore"
           resources:
