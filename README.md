@@ -1,11 +1,13 @@
 # Aws-Greengrass-Component-Samples
+___
 
-## PublishSwitchState-1.0.0 Component
-![](https://github.com/dsonoda/Aws-IoT-Edge-Architecture-Samples/blob/images/components/com.example.PublishSwitchState-1.0.0/architecture.png)
+# PublishSwitchState-1.0.0 Component
+\> [article page](https://qiita.com/dsonoda/items/b2e6557f9bfa29ecee14)  
 
-[article page](https://qiita.com/dsonoda/items/b2e6557f9bfa29ecee14)
+![](https://github.com/dsonoda/Aws-IoT-Edge-Architecture-Samples/blob/images/components/com.example.PublishSwitchState-1.0.0/architecture.png)  
 
-#### deploy command  
+deploy command  
+
 ```shell
 $ sudo /greengrass/v2/bin/greengrass-cli deployment create \
    --recipeDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/recipes \
@@ -13,12 +15,13 @@ $ sudo /greengrass/v2/bin/greengrass-cli deployment create \
    --merge "com.example.PublishSwitchState=1.0.0"
 ```
 
-## PublishLedStatus-1.0.0 Component
+# PublishLedStatus-1.0.0 Component
+\> [article page](https://qiita.com/dsonoda/items/1c29497e2c8088296e88)
+
 ![](https://github.com/dsonoda/Aws-IoT-Edge-Architecture-Samples/blob/images/components/com.example.PublishLedStatus-1.0.0/architecture.png)
 
-[article page](https://qiita.com/dsonoda/items/1c29497e2c8088296e88)
+deploy command  
 
-#### deploy command  
 ```shell
 $ sudo /greengrass/v2/bin/greengrass-cli deployment create \
    --recipeDir /home/pi/Aws-IoT-Edge-Architecture-Samples/components/recipes \
