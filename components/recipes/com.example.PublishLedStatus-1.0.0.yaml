@@ -14,4 +14,4 @@ ComponentConfiguration:
 Manifests:
   - Lifecycle:
       Run: |
-        python3 -u {artifacts:path}/blink_led.py
+        python3 -u {artifacts:path}/publish_led_status.py
