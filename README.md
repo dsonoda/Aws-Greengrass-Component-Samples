@@ -1,7 +1,7 @@
 AWS IoT Greengrass V2 Component samples.
 ___
 
-# Software versionｓ  
+# Software versions  
 - Raspberry Pi 4
 - Raspbian Ver.11
 - Python 3.9.2
