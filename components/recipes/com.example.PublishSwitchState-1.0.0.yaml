@@ -8,11 +8,9 @@ ComponentConfiguration:
       aws.greengrass.ipc.mqttproxy:
         com.example.PublishSwitchState:mqttproxy:1:
           operations:
-          - "aws.greengrass#PublishToIoTCore"
+            - "aws.greengrass#PublishToIoTCore"
           resources:
-          - "raspberrypi4/switches"
+            - "raspberrypi4/switches"
 Manifests:
-  - Platform:
-      os: linux
-    Lifecycle:
+  - Lifecycle:
       Run: python3 {artifacts:path}/publish_switch_state.py
